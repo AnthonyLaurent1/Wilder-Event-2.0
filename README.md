@@ -26,4 +26,25 @@ Vous êtes à jour !
 Lancer le serveur : 
 -> symfony consoler server:start -d
 
+-----------------------------------------------------------------------------------------------
+Workflow :
+
+Pour chaque feature :
+-> tirer une nouvel branche à partir de dev
+-> commit -m 'feature/nomdelafeature'
+-> push nomdetabranche
+-> PR vers dev
+
+Pour la correction des bugs :
+-> tirer une nouvel branche à partir de dev
+-> commit -m 'bugfix/nomdubug'
+-> push nomdetabranche
+-> PR vers dev
+
+Pour une PR non acceptés : 
+-> reprendre la branche de sa feature ou son bug
+-> commit -m 'fix after review/descriptif'
+-> push nomdetabranche
+-> pas besoin de PR elle sera automatiquement mis à jour
+
 Good code !
